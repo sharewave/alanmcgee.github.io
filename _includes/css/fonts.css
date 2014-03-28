@@ -1,0 +1,50 @@
+
+@font-face {
+    font-family: 'FS Elliot Web Regular';
+    src: url('http://f.fontdeck.com/f/1/MGxLMGVtcFgABHPRhNXa455fM5GPnOyKZ5vA4M5QEEIMpHcLCLLlQygEQVcGuWKsDRabh/EjNqqn5Q.eot');
+    src: url('http://f.fontdeck.com/f/1/MGxLMGVtcFgABHPRhNXa455fM5GPnOyKZ5vA4M5QEEIMpHcLCLLlQygEQVcGuWKsDRabh/EjNqqn5Q.eot?') format('embedded-opentype'),
+    url('http://f.fontdeck.com/f/1/MGxLMGVtcFgABHPRhNXa455fM5GPnOyKZ5vA4M5QEEIMpHcLCLLlQygEQVcGuWKsDRabh/EjNqqn5Q.woff') format('woff'),
+    url('http://f.fontdeck.com/f/1/MGxLMGVtcFgABHPRhNXa455fM5GPnOyKZ5vA4M5QEEIMpHcLCLLlQygEQVcGuWKsDRabh/EjNqqn5Q.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FS Elliot Web Bold';
+    src: url('http://f.fontdeck.com/f/1/dUFJbTB3a3gABLZAtiJGHJW8gN4lHPhnKKYhYGvA49E1DfjOttTpv6C0t663Me/Zv1jcz3fE5gExDA.eot');
+    src: url('http://f.fontdeck.com/f/1/dUFJbTB3a3gABLZAtiJGHJW8gN4lHPhnKKYhYGvA49E1DfjOttTpv6C0t663Me/Zv1jcz3fE5gExDA.eot?') format('embedded-opentype'),
+    url('http://f.fontdeck.com/f/1/dUFJbTB3a3gABLZAtiJGHJW8gN4lHPhnKKYhYGvA49E1DfjOttTpv6C0t663Me/Zv1jcz3fE5gExDA.woff') format('woff'),
+    url('http://f.fontdeck.com/f/1/dUFJbTB3a3gABLZAtiJGHJW8gN4lHPhnKKYhYGvA49E1DfjOttTpv6C0t663Me/Zv1jcz3fE5gExDA.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FS Elliot Web Italic';
+    src: url('http://f.fontdeck.com/f/1/X2o2SWtwYjEABPRhuDXs5NtH8Qv9RLCckQQVmZfhQVgPaJYS5khMSajR7+KJuSRDOuqjk+qcwu5iaw.eot');
+    src: url('http://f.fontdeck.com/f/1/X2o2SWtwYjEABPRhuDXs5NtH8Qv9RLCckQQVmZfhQVgPaJYS5khMSajR7+KJuSRDOuqjk+qcwu5iaw.eot?') format('embedded-opentype'),
+    url('http://f.fontdeck.com/f/1/X2o2SWtwYjEABPRhuDXs5NtH8Qv9RLCckQQVmZfhQVgPaJYS5khMSajR7+KJuSRDOuqjk+qcwu5iaw.woff') format('woff'),
+    url('http://f.fontdeck.com/f/1/X2o2SWtwYjEABPRhuDXs5NtH8Qv9RLCckQQVmZfhQVgPaJYS5khMSajR7+KJuSRDOuqjk+qcwu5iaw.ttf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'FS Elliot Web Light';
+    src: url('http://f.fontdeck.com/f/1/ME5ncTRzWnMABND98hKM964kG76w0Vu0VJDTbcb/XzEtvQ4LnHVq1wDOabITG35uRP6pFbjdzvsprw.eot');
+    src: url('http://f.fontdeck.com/f/1/ME5ncTRzWnMABND98hKM964kG76w0Vu0VJDTbcb/XzEtvQ4LnHVq1wDOabITG35uRP6pFbjdzvsprw.eot?') format('embedded-opentype'),
+    url('http://f.fontdeck.com/f/1/ME5ncTRzWnMABND98hKM964kG76w0Vu0VJDTbcb/XzEtvQ4LnHVq1wDOabITG35uRP6pFbjdzvsprw.woff') format('woff'),
+    url('http://f.fontdeck.com/f/1/ME5ncTRzWnMABND98hKM964kG76w0Vu0VJDTbcb/XzEtvQ4LnHVq1wDOabITG35uRP6pFbjdzvsprw.ttf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FS Elliot Web Thin';
+    src: url('http://f.fontdeck.com/f/1/TjNSUjdNT1QABBBjLLK2e8zfWQRYvfvGDKdWF2pClmB9aThPzaP7420pQqM1qJhtGB1xxUYt2Xco9Q.eot');
+    src: url('http://f.fontdeck.com/f/1/TjNSUjdNT1QABBBjLLK2e8zfWQRYvfvGDKdWF2pClmB9aThPzaP7420pQqM1qJhtGB1xxUYt2Xco9Q.eot?') format('embedded-opentype'),
+    url('http://f.fontdeck.com/f/1/TjNSUjdNT1QABBBjLLK2e8zfWQRYvfvGDKdWF2pClmB9aThPzaP7420pQqM1qJhtGB1xxUYt2Xco9Q.woff') format('woff'),
+    url('http://f.fontdeck.com/f/1/TjNSUjdNT1QABBBjLLK2e8zfWQRYvfvGDKdWF2pClmB9aThPzaP7420pQqM1qJhtGB1xxUYt2Xco9Q.ttf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+}
