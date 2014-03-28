@@ -6,26 +6,25 @@
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css">
 
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
 
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css">
+        <!-- Bootstrap JS -->
+        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
 
     </head>
     <body>
-
+    {% include header.html %}
         <div class="site">
           <div class="header">
             <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
           </div>
-
           {{ content }}
+        </div>
 
+    {% include footer.html %}   
     </body>
-    {% include footer.html %}
 </html>
