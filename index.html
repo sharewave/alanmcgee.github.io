@@ -1,13 +1,35 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: Airwaves
 ---
 
 <div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+  <ul>
+    {% for post in paginator.posts %}
+      <li class="posts">
+      	<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+      	<span class="date"> {{ post.date | date_to_string }}</span>
+      	<span> {{ post.excerpt }} </span>
+      </li>
     {% endfor %}
   </ul>
+</div>
+
+<!-- Pagination links -->
+<div class="row-fluid">
+<div class="span12" style="padding-bottom:35px">
+ <nav id="pagination">
+    {% if paginator.previous_page %}
+      {% if paginator.previous_page == 1 %}
+      <a href="/" class="navbar-inverse pull-left" style="text-decoration:none"  title="Previous Page"><h2>&laquo; Previous</h2></a>
+      {% else %}
+      <a href="/page{{ paginator.previous_page }}/" class="navbar-inverse pull-left" style="text-decoration:none"  title="Previous Page"><h2>&laquo; Previous</h2></a>
+      {% endif %}
+    {% endif %}
+
+    {% if paginator.next_page %}
+    <a href="/page{{ paginator.next_page }}/" class="navbar-inverse pull-right" style="text-decoration:none" title="Next Page"><h2>Next &raquo;</h2></a>
+    {% endif %}
+  </nav>
+</div>
 </div>
