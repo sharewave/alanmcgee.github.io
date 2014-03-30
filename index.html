@@ -1,0 +1,32 @@
+---
+layout: default
+title: Airwaves
+---
+
+<div id="home">
+   {% for post in paginator.posts %}
+      <h1><a class="header" href="{{ post.url }}">{{ post.title }}</a></h1>
+      <p class="date"> {{ post.date | date_to_long_string }}</p>
+      {{ post.excerpt }}
+      <h4><a href="{{ post.url }}">Read More +</a></h4>
+   {% endfor %}
+</div>
+
+<!-- Pagination links -->
+<div class="row-fluid">
+<div class="span12" style="padding-bottom:35px">
+ <nav id="pagination">
+    {% if paginator.previous_page %}
+      {% if paginator.previous_page == 1 %}
+      <a href="/" class="navbar-inverse pull-left" style="text-decoration:none"  title="Previous Page"><h4>&laquo; Previous</h4></a>
+      {% else %}
+      <a href="/page{{ paginator.previous_page }}/" class="navbar-inverse pull-left" style="text-decoration:none"  title="Previous Page"><h4>&laquo; Previous</h4></a>
+      {% endif %}
+    {% endif %}
+
+    {% if paginator.next_page %}
+    <a href="/page{{ paginator.next_page }}/" class="navbar-inverse pull-right" style="text-decoration:none" title="Next Page"><h4>Next &raquo;</h4></a>
+    {% endif %}
+  </nav>
+</div>
+</div>
