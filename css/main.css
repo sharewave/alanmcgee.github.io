@@ -2,6 +2,7 @@
 ---
 
 {% include css/main.css %}
+{% include css/spacing.css %}
 {% include css/syntax.css %}
 {% include css/logo.css %}
 {% include css/icons.css %}

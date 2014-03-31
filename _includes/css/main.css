@@ -74,10 +74,11 @@ ul.tag-list li {
 
 h3 {
   font-family: 'FS Elliot Web Light', sans-serif !important;
-  font-size: 30px !important;
+  font-size: 18px !important;
   font-weight: normal !important; 
-  color: #8D8D8D;
+  color: #666666;
   text-align: center;
+  line-height: 30px;
 }
 
 /* Spacing */
@@ -480,7 +481,7 @@ a.header {
   background: url(https://sharewave.com/img/backgrounds/bgnoise_lg.png);
 }
 
-.button {
+button.button {
     text-align:center;
     padding: 0 0 0 0;
     color: rgb(255, 255, 255);
@@ -495,7 +496,7 @@ a.header {
     font-family: 'FS Elliot Web Light', sans-serif;
     letter-spacing: 1px;
     margin-bottom: 0;
-    margin-left: -1px;
+    margin-left: -4px;
 }
 .button:hover {
     background-color: #15A085;
@@ -511,5 +512,6 @@ input.SubscriptionInput {
     border-radius: 3px 0 0 3px;
     display: inline;
     border: 1px solid #E3E3E3;
+    margin: 0;
 }
 
