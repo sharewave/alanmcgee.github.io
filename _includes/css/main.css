@@ -72,6 +72,14 @@ ul.tag-list li {
     list-style-type: none;
 }
 
+h3 {
+  font-family: 'FS Elliot Web Light', sans-serif !important;
+  font-size: 30px !important;
+  font-weight: normal !important; 
+  color: #8D8D8D;
+  text-align: center;
+}
+
 /* Spacing */
 
 .spacer5 { height: 5px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
@@ -82,10 +90,6 @@ ul.tag-list li {
 
 
 /* Bootstrap overrides */
-
-.container {
-    width: 1024px;
-}
 
 label {
     cursor: default;
@@ -346,6 +350,7 @@ a.header {
     list-style-type:none;
     min-height: 20px;
     color: rgb(141, 141, 141);
+    margin-left: 0px;
 }
 
 .copyrightLinks li {
@@ -468,5 +473,43 @@ a.header {
     color: #1E2D3D;
     font-size: 18px;
     padding-left: 12px;
+}
+
+#subscribe {
+  display: block;
+  background: url(https://sharewave.com/img/backgrounds/bgnoise_lg.png);
+}
+
+.button {
+    text-align:center;
+    padding: 0 0 0 0;
+    color: rgb(255, 255, 255);
+    background-color: #1ABC96;
+    border-radius: 0 3px 3px 0;
+    display: inline-block;
+    width: 130px;
+    height: 42px;
+    text-transform:capitalize;
+    border: 0;
+    font-size: 14px;
+    font-family: 'FS Elliot Web Light', sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    margin-left: -1px;
+}
+.button:hover {
+    background-color: #15A085;
+}
+
+input.SubscriptionInput {
+    padding-left: 15px;
+    width: 300px;
+    height: 32px;
+    outline: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border-radius: 3px 0 0 3px;
+    display: inline;
+    border: 1px solid #E3E3E3;
 }
 
