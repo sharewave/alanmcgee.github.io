@@ -1,9 +1,13 @@
 ---
 layout: default
 ---
+
+<div class="postwidth">
 <h1>{{ page.title }}</h1>
 <p class="date">{{ page.date | date_to_long_string }}</p>
-
-<div class="site">
-{{ content }}
 </div>
+
+<div class="postwidth">{{ content }}</div>
+{% include subscribe.html %}
+<div class="postwidth">{% include comments.html %}</div>
+

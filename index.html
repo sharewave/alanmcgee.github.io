@@ -3,7 +3,7 @@ layout: default
 title: Airwaves
 ---
 
-<div id="home">
+<div id="home" class="postwidth">
    {% for post in paginator.posts %}
       <h1><a class="header" href="{{ post.url }}">{{ post.title }}</a></h1>
       <p class="date"> {{ post.date | date_to_long_string }}</p>
@@ -13,7 +13,7 @@ title: Airwaves
 </div>
 
 <!-- Pagination links -->
-<div class="row-fluid">
+<div class="row-fluid postwidth">
 <div class="span12" style="padding-bottom:35px">
  <nav id="pagination">
     {% if paginator.previous_page %}

@@ -26,27 +26,7 @@
         <div class="site">
           {{ content }}
         </div>
-
-        <!-- Subscribe -->
-
-<div id="subscribe">
-  <div class="row-fluid">
-    <div class="span10 offset1 text-center">
-      <div>
-        <div class="spacer20"></div>
-        <h3>Get weekly commentary on startup capitalization, fundraising, <br> shareholder data &amp; records, and investor relations</h3>
-        <div>
-            <form action="http://sharewave.us5.list-manage1.com/subscribe/post?u=13b733b77902e91a87b575f40&id=14054ad93f" method="post" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-            <input type="email" class="SubscriptionInput" name="EMAIL" placeholder="Your Email Address">
-            <button type="submit" name="subscribe" class="button">Subscribe</button>
-        </form>
-         </div> 
-         <div class="spacer40"></div>
-      </div>
-    </div>
-  </div>
-</div>
-
+    {% include subscribe.html %}  
     {% include footer.html %}   
     </body>
 </html>

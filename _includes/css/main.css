@@ -114,8 +114,6 @@ p {
   color: #8D8D8D;
   line-height: 34px;
   text-align: left;
-  width: 700px;
-  margin: 3em auto 2em;
 }
 
 .site h1 {
@@ -216,6 +214,11 @@ a.header {
 
 .post pre.terminal code {
   background-color: #333;
+}
+
+.postwidth {
+    width: 700px;
+    margin: 3em auto 2em;
 }
 
 /*****************************************************************************/
@@ -479,6 +482,7 @@ a.header {
 #subscribe {
   display: block;
   background: url(https://sharewave.com/img/backgrounds/bgnoise_lg.png);
+  width: 100%;
 }
 
 button.button {
