@@ -273,16 +273,20 @@ a.header {
     height: 40px;
     line-height: 40px;
     margin-top: 5px;
-    margin-right: 0;
-    text-transform: uppercase;
     font-size: 14px;
     color: #C6C6C6;
-    font-family: 'FS Elliot Web Bold', sans-serif;
-    letter-spacing: 0.1em;
+    font-family: 'FS Elliot Web Regular', sans-serif;
+    letter-spacing: 0.05em;
 }
 
 .topnav .nav.content-pages > li > a:hover {
    color: #FFFFFF;
+}
+
+ul.content-pages {
+    width: 540px;
+    margin: 0 auto 0 auto !important;
+    float: none !important;
 }
 
 .navbar .nav {
@@ -465,6 +469,19 @@ div.fixednav{
     min-height: 32px;
     position: relative;
 }
+
+.standard-button > button:active {
+    background-color: #1ABC96;
+    color: #FFFFFF;
+}
+
+.standard-button > button:focus {
+    background-color: #1ABC96;
+    color: #FFFFFF;
+    -moz-appearance: none;
+    outline: 0;
+}
+
 .standard-button > button:hover {
     background-color: #15A085;
     color: #FFFFFF;
