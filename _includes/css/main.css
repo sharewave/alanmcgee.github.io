@@ -74,10 +74,10 @@ ul.tag-list li {
 
 h3 {
   font-family: 'FS Elliot Web Light', sans-serif !important;
-  font-size: 18px !important;
+  font-size: 21px !important;
   font-weight: normal !important; 
   color: #666666;
-  text-align: left;
+  text-align: center;
   line-height: 30px;
 }
 
@@ -565,14 +565,14 @@ input.SubscriptionInput {
     margin: 0;
 }
 
-.subleft {
+div.subleft {
     display: inline-block;
     vertical-align: top;
-    text-align: left;
     width: 275px;
+    margin-top: 25px;
 }
 
-.subright{
+div.subright {
     display: inline-block;
     vertical-align: top;
     margin-left: 30px;
