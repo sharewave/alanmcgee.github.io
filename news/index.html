@@ -1,0 +1,17 @@
+---
+layout: default
+title: News
+---
+
+<div class="postwidth">
+
+
+{% for post in site.categories.news %}
+      <h1><a class="header" href="{{ post.url }}">{{ post.title }}</a></h1>
+      <p class="date"> {{ post.date | date: '%B %-d, %Y' }}</p>
+      {{ post.excerpt }}
+      <h4><a href="{{ post.url }}">Read More +</a></h4>
+   {% endfor %}
+</div>
+
+{% include subscribe.html %}  
