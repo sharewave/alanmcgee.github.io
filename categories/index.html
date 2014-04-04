@@ -1,0 +1,14 @@
+---
+layout: default
+title: Post Categories
+---
+
+<div class="postwidth">
+
+{% for post in site.categories %}
+      <h1><a class="header" href="{{ site.category }}">{{ site.category}}</a></h1>
+      Lorem ipsum description of category
+   {% endfor %}
+</div>
+
+{% include subscribe.html %}  

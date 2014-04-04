@@ -74,7 +74,7 @@ ul.tag-list li {
 
 h3 {
   font-family: 'FS Elliot Web Light', sans-serif !important;
-  font-size: 21px !important;
+  font-size: 18px !important;
   font-weight: normal !important; 
   color: #666666;
   text-align: center;
@@ -252,7 +252,7 @@ a.header {
     height: 40px;
     width: 100%;
     margin-bottom: 0px;
-    background-color: #1E2D3D;
+    background-color: #F1F1F1;
     padding: 20px 0 20px 0;
 }
 
@@ -267,30 +267,40 @@ a.header {
     text-align: center;
 }
 
-.topnav .nav.content-pages > li > a {
+.content-pages > li > a {
     text-align: center;
     width: 140px;
     height: 40px;
     line-height: 40px;
-    margin-top: 5px;
+    margin: 5px 10px 0 0 !important;
     font-size: 14px;
-    color: #C6C6C6;
+    color: #666666;
     font-family: 'FS Elliot Web Regular', sans-serif;
     letter-spacing: 0.05em;
 }
 
 .topnav .nav.content-pages > li > a:hover {
-   color: #FFFFFF;
+   color: #C7C7C7;
 }
 
 ul.content-pages {
-    width: 540px;
-    margin: 0 auto 0 auto !important;
-    float: none !important;
+    width: 120px;
+    margin: 0 20px 0 auto !important;
 }
 
 .navbar .nav {
-    margin-right: 100px;
+    margin-right: 125px;
+}
+
+.nav-logo > li > a > img {
+    margin: none;
+    padding: 0 0 0 0;
+    width: 140px !important;
+    text-align: left;
+}
+
+ul.nav-logo > li > a > img {
+    cursor:pointer;
 }
 
 div.fixednav{
@@ -510,8 +520,8 @@ div.fixednav{
 }
 
 .social-icons a, .social-icons a:hover {
-    color: #666666;
-    font-size: 24px;
+    color: #8D8D8D;
+    font-size: 12px;
     padding: 0 30px 0 30px;
 
 }
@@ -546,7 +556,7 @@ button.button {
     font-family: 'FS Elliot Web Light', sans-serif;
     letter-spacing: 1px;
     margin-bottom: 0;
-    margin-left: -4px;
+    margin-left: -6px;
 }
 .button:hover {
     background-color: #15A085;
@@ -579,4 +589,71 @@ div.subright {
     margin-top: 20px;
 }
 
+.gravatar img {
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
+.post-byline {
+  margin-top: 60px;
+}
+
+.byline {
+  padding: 0;
+  margin: 0 20px 0 0 !important;
+  list-style: none;
+}
+
+.byline-author {
+  font-size: 14px;
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  padding: 0;
+
+}
+
+div.byline-heading {
+  border-top: 1px solid #C7C7C7;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  padding: 5px 0 10px;
+  color: #8D8D8D;
+}
+div.byline-left {
+  margin-right: 20px;
+}
+
+div.byline-heading > h4 {
+  font-size: 10px !important;
+}
+
+div.byline-image {
+  position: absolute;
+}
+
+.byline-category > h4 {
+  font-size: 16px !important;
+  color: #666666;
+  letter-spacing: .04em;
+  margin-bottom: 5px !important;
+}
+
+div.byline-info {
+  padding-left: 100px;
+}
+
+.byline-info > h4 {
+  font-size: 16px !important;
+  color: #666666;
+  letter-spacing: .04em;
+  margin-bottom: 5px !important;
+}
+
+div.byline-block {
+  display: inline-block;
+  width: 48%;
+  vertical-align: top;
+}
 

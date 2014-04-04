@@ -1,17 +1,53 @@
 ---
 layout: default
 ---
-
+{% assign author = site.authors[page.author] %}
 <div class="postwidth">
 <h1>{{ page.title }}</h1>
 <p class="date">{{ page.date | date: '%B %-d, %Y' }} 
- {% if page.category %} 
-        {{ page.category | capitalize | prepend: '&nbsp; // &nbsp;' }}
- {% endif %}
+ &nbsp; // &nbsp; <a href="#disqus_thread"></a>
+
 </p>
 </div>
 
-<div class="postwidth">{{ content }}</div>
+<div class="postwidth">
+	{{ content }}
+    <div class="post-byline">
+		<div class="byline-block byline-left">
+			<div class="byline-heading">
+		     <h4>Written by</h4>
+		    </div>
+		    <ul class="byline">
+		    	<li class="byline-author">
+			    	<div class="byline-image gravatar">
+			   		  	<img src="{{ author.gravatar | prepend: "http://www.gravatar.com/avatar/" | append: ".png" }}"/>
+			   		</div>
+			    	<div class="byline-info">
+				    	<h4>{{ author.display_name }}</h4>
+				    	{{ author.bio }} <br>
+				    	<a href="{{ author.twitter | prepend: "http://twitter.com/"}}">{{ author.twitter | prepend: "@" }}</a>
+			   		</div>
+		   		</li>
+		   	</ul>
+	   	</div>
+	   	<div class="byline-block">
+			<div class="byline-heading">
+		     <h4>Published in</h4>
+		    </div>
+		    <ul class="byline">
+		    	<li class="byline-author">
+		    		<div class="byline-category">
+				    	<h4>{{ page.category | capitalize }}</h4>
+				    	Lorem ipsum description of category <br>
+				    	<a href="/categories">Other categories</a>
+				    </div>
+		   		</li>
+		   	</ul>
+	   	</div>
+	</div>
+</div>
+
+
 {% include subscribe.html %}
 <div class="postwidth comments">{% include comments.html %}</div>
 

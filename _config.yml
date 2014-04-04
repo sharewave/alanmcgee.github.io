@@ -1,6 +1,14 @@
-name: Airwaves
+name: Sharewave Blog
 markdown: redcarpet
 pygments: true
 
 permalink: :title
 paginate: 5
+
+authors:
+  alanmcgee:
+    name: Alan McGee
+    display_name: Alan McGee
+    gravatar: 5fba9217101134ae0b3f286c48a4e2c9
+    twitter: alanmcgee
+    bio: "Sharewave Co-founder & CMO"
