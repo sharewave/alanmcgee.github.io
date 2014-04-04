@@ -584,6 +584,10 @@ input.SubscriptionInput {
     margin: 0;
 }
 
+input:focus.SubscriptionInput {
+    border-color: #E3E3E3 !important;
+}
+
 li.subleft {
     display: inline-block;
     vertical-align: top;
