@@ -6,8 +6,7 @@ title: Sharewave Blog
 <div id="home" class="postwidth">
    {% for post in paginator.posts %}
       <h1><a class="header" href="{{ post.url }}">{{ post.title }}</a></h1>
-      <p class="date"> {{ post.date | date: '%B %-d, %Y' }} &nbsp; // &nbsp;
-        <a href="{{ post.url }}" data-disqus-identifier="{{ post.url }}"></a>
+      <p class="date"> {{ post.date | date: '%B %-d, %Y' }}
       </p>
       {{ post.excerpt }}
       <h4><a href="{{ post.url }}">Read More +</a></h4>
