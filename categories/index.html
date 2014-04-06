@@ -11,4 +11,15 @@ title: Post Categories
    {% endfor %}
 </div>
 
+<div id="home" class="postwidth">
+   {% for post in posts.author.alan %}
+      <h1><a class="header" href="{{ post.url }}">{{ post.title }}</a></h1>
+      <p class="date"> {{ post.date | date: '%B %-d, %Y' }} &nbsp; // &nbsp;
+        <a href="{{ post.url }}" data-disqus-identifier="{{ post.url }}"></a>
+      </p>
+      {{ post.excerpt }}
+      <h4><a href="{{ post.url }}">Read More +</a></h4>
+   {% endfor %}
+</div>
+
 {% include subscribe.html %}  
