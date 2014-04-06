@@ -6,9 +6,27 @@ permalink: :title
 paginate: 5
 
 authors:
-  alanmcgee:
+  alan:
     name: Alan McGee
     display_name: Alan McGee
     gravatar: 5fba9217101134ae0b3f286c48a4e2c9
     twitter: alanmcgee
-    bio: "Sharewave Co-founder & CMO"
+    bio: "Co-founder & CMO"
+  josh:
+    name: Joshua Levine
+    display_name: Joshua Levine
+    gravatar: 
+    twitter: jslevinenyc
+    bio: "Founder & CEO"
+  r0ml:
+    name: r0ml
+    display_name: r0ml
+    gravatar: 
+    twitter: r0ml
+    bio: "Co-founder & CTO"
+  robert:
+    name: Robert Walport
+    display_name: Robert Walport
+    gravatar: 
+    twitter: robertwalport
+    bio: "Product Manager"
