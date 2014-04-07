@@ -3,29 +3,32 @@ alan:
     gravatar: 5fba9217101134ae0b3f286c48a4e2c9
     twitter: alanmcgee
     bio: "Co-founder & CMO"
-    page: /alan.html
-    image: https://sharewave.com/img/team/alan.png
+    page: /alan/
 
 sharewave:
     display_name: The Sharewave Team
     gravatar: 6606bcbe2c2f81166b4054d68d0e16aa
     twitter: sharewaveteam
     bio: "Updates from the team"
+    page: /sharewaveteam/
 
 josh:
     display_name: Joshua Levine
     gravatar: 
     twitter: jslevinenyc
     bio: "Founder & CEO"
+    page: /josh/
 
 r0ml:
     display_name: r0ml
-    gravatar: 
+    gravatar: e64653c7d72d11a7ab80ad5944456f2f
     twitter: r0ml
     bio: "Co-founder & CTO"
+    page: /r0ml/
 
 robert:
     display_name: Robert Walport
     gravatar: 
     twitter: robertwalport
     bio: "Product Manager"
+    page: /robert/
