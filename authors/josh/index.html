@@ -24,9 +24,6 @@ title: Joshua Levine
        <h4>Latest</h4>
     </div>  
 
-
-<div id="home" class="postwidth">
-  <h1>Published by {{ author.display_name }} </h1>
    {% for post in site.posts %}
    	{% if post.author == 'josh' %}
 	      <h1><a class="header" href="{{ post.url }}">{{ post.title }}</a></h1>

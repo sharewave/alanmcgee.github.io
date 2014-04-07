@@ -3,7 +3,7 @@ layout: default
 title: The Sharewave Team
 ---
 
-{% assign author = site.data.authors['sharewaveteam'] %}
+{% assign author = site.data.authors['sharewave'] %}
 
 <div class="postwidth">
   <div class="author-page">
@@ -24,9 +24,6 @@ title: The Sharewave Team
        <h4>Latest</h4>
     </div>  
 
-
-<div id="home" class="postwidth">
-  <h1>Published by {{ author.display_name }} </h1>
    {% for post in site.posts %}
    	{% if post.author == 'sharewaveteam' %}
 	      <h1><a class="header" href="{{ post.url }}">{{ post.title }}</a></h1>
