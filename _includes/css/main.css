@@ -367,8 +367,6 @@ div.fixednav{
 
 #copyrightBar {
     border-top: solid 1px #34495e;
-    padding-top: 20px;
-
 }
 
 .copyright {
@@ -710,4 +708,24 @@ div.byline-block {
   width: 48%;
   vertical-align: top;
 }
+
+.author-page {
+  text-align: center !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.author-page h3 {
+  text-align: center !important;
+  font-size: 26px !important;
+  margin-top: 20px !important;
+}
+
+.author-page h4 {
+  text-align: center !important;
+  font-size: 14px !important;
+  margin-top: 10px !important;
+  margin-bottom: 40px !important;
+}
+
 

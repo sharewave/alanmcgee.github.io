@@ -21,7 +21,8 @@ layout: default
 		    <ul class="byline">
 		    	<li class="byline-author">
 			    	<div class="byline-image gravatar">
-			   		  	<img src="{{ author.gravatar | prepend: "http://www.gravatar.com/avatar/" | append: ".png" }}"/>
+			   		  	<a href="{{ author.page | prepend: "/authors" }}">
+			   		  	<img src="{{ author.gravatar | prepend: "http://www.gravatar.com/avatar/" | append: ".png" }}"/></a>
 			   		</div>
 			    	<div class="byline-info">
 				    	<a href="{{ author.page | prepend: "/authors" }}"><h4>{{ author.display_name }}</h4></a>

@@ -21,12 +21,12 @@ title: Sharewave Blog
       {% if paginator.previous_page == 1 %}
       <a href="/" class="navbar-inverse pull-left" style="text-decoration:none"  title="Previous Page"><h4>&laquo; Previous</h4></a>
       {% else %}
-      <a href="/page{{ paginator.previous_page }}/" class="navbar-inverse pull-left" style="text-decoration:none"  title="Previous Page"><h4>&laquo; Previous</h4></a>
+      <a href="/page{{ paginator.previous_page }}/" class="navbar-inverse pull-left" style="text-decoration:none"  title="Newer Posts"><h4>&laquo; Previous</h4></a>
       {% endif %}
     {% endif %}
 
     {% if paginator.next_page %}
-    <a href="/page{{ paginator.next_page }}/" class="navbar-inverse pull-right" style="text-decoration:none" title="Next Page"><h4>Next &raquo;</h4></a>
+    <a href="/page{{ paginator.next_page }}/" class="navbar-inverse pull-right" style="text-decoration:none" title="Older Posts"><h4>Next &raquo;</h4></a>
     {% endif %}
   </nav>
 </div>
