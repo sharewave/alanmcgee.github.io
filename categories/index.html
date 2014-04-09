@@ -1,25 +1,26 @@
 ---
 layout: default
-title: Post Categories
+title: Categories
 ---
 
 <div class="postwidth">
+  <div class="author-page">
+        <h3>Categories</h3>
+  </div>
+   <div class="byline-heading">
+       <h4>Latest</h4>
+   </div>
 
-{% for post in site.categories %}
-      <h1><a class="header" href="{{ site.category }}">{{ site.category}}</a></h1>
-      Lorem ipsum description of category
+   {% for category in site.data.categories %}
+         <h1><a href="{{ category.page }}">{{ category.name }}</a></h1>
+         {{ category.description }}
+   {% endfor %}
+{{ site.data.categories["news"] }}
+   {% for author in site.data.authors %}
+      <h1><a class="header" href="{{ author.page }}">{{ author.display_name }}</a></h1>
+      {{ author.bio }}
+      test
    {% endfor %}
 </div>
 
-<div id="home" class="postwidth">
-   {% for post in posts.author.alan %}
-      <h1><a class="header" href="{{ post.url }}">{{ post.title }}</a></h1>
-      <p class="date"> {{ post.date | date: '%B %-d, %Y' }} &nbsp; // &nbsp;
-        <a href="{{ post.url }}" data-disqus-identifier="{{ post.url }}"></a>
-      </p>
-      {{ post.excerpt }}
-      <h4><a href="{{ post.url }}">Read More +</a></h4>
-   {% endfor %}
-</div>
-
-{% include subscribe.html %}  
+{% include subscribe.html %}

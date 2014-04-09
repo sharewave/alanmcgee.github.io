@@ -2,9 +2,9 @@
 layout: default
 ---
 {% assign author = site.data.authors[page.author] %}
-{% assign description = site.data.descriptions[page.category] %}
+{% assign category = site.data.categories[page.category] %}
 
-<div class="postwidth">
+<div class="row-fluid postwidth">
 <h1>{{ page.title }}</h1>
 <p class="date">{{ page.date | date: '%B %-d, %Y' }} 
  &nbsp; // &nbsp; <a href="#disqus_thread"></a>
@@ -39,9 +39,9 @@ layout: default
 		    <ul class="byline">
 		    	<li class="byline-author">
 		    		<div class="byline-category">
-				    	<h4>{{ description.name | capitalize }}</h4>
-				    	{{ description.description }} <br>
-				    	<a href="/categories">Other categories</a>
+				    	<a href="{{ category.page | prepend: "/categories" }}"><h4>{{ category.name | capitalize }}</h4></a>
+				    	{{ category.description }} <br>
+				    	<!-- <a href="/categories">Other categories</a> -->
 				    </div>
 		   		</li>
 		   	</ul>
