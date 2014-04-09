@@ -1,0 +1,19 @@
+news:
+  name: News
+  description: Company updates from Sharewave
+  page: /news/
+
+just-released:
+  name: Just Released
+  description: New product and features
+  page: /just-released/
+
+shareholder-data:
+  name: Shareholder Data
+  description: From paperwork to cap tables
+  page: /shareholder-data/
+
+private-markets:
+  name: Private Markets
+  description: Thoughts on the marketplace
+  page: /private-markets/
