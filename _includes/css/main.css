@@ -526,11 +526,24 @@ div.fixednav{
     background-color: #2980B9;
 }
 
-.social-icons a, .social-icons a:hover {
-    color: #8D8D8D;
-    font-size: 12px;
-    padding: 0 30px 0 30px;
+div.social-icons {
+  font-size: 10px;
+  color: #666666;
+  text-transform: uppercase;
+  font-family: 'FS Elliot Web Regular', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: .1em;
+  margin-top: 30px;
+}
 
+.social-icons a {
+    color: #8D8D8D;
+    font-size: 14px;
+    margin: 10px 0px 10px 20px;
+}
+
+.social-icons a:hover {
+   color: #C7C7C7;
 }
 
 .comments {
@@ -621,7 +634,7 @@ li.subright {
 }
 
 .post-byline {
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
 .sub-block {
@@ -743,6 +756,6 @@ div.byline-block {
 }
 
 .post-break {
-  border-bottom: solid 1px #C7C7C7 !important;
+  border-bottom: solid 1px #666666 !important;
   margin-top: 40px;
 }

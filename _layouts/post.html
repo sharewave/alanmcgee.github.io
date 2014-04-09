@@ -4,7 +4,7 @@ layout: default
 {% assign author = site.data.authors[page.author] %}
 {% assign category = site.data.categories[page.category] %}
 
-<div class="row-fluid postwidth">
+<div class="postwidth">
 <h1>{{ page.title }}</h1>
 <p class="date">{{ page.date | date: '%B %-d, %Y' }} 
  &nbsp; // &nbsp; <a href="#disqus_thread"></a>
@@ -13,6 +13,20 @@ layout: default
 
 <div class="postwidth">
 	{{ content }}
+	<!--Sharing-->
+	<div class="social-icons">
+		share this post     
+	    
+	    <a href="https://news.ycombinator.com/submitlink?u={{site.url}}{{page.url}}&t={{page.title}}" target="_blank"><span data-icon="&#xe607;" aria-hidden="true"></span></a>
+
+	    <a href="https://twitter.com/intent/tweet?url=http://blog.sharewave.com{{page.url}}&text={{page.title}}" target="_blank"><span data-icon="&#xe035;" aria-hidden="true"></span></a>
+
+	    <a href="http://www.linkedin.com/cws/share?url={{site.url}}{{page.url}}" target="_blank"><span data-icon="&#xe036;" aria-hidden="true"></span></a>
+
+   	    <a href="http://www.facebook.com/share.php?u={{site.url}}{{page.url}}" target="_blank"><span data-icon="&#xe037;" aria-hidden="true"></span></a>
+
+    </div>
+	<!--Author & Category Byline-->
     <div class="post-byline">
 		<div class="byline-block byline-left">
 			<div class="byline-heading">
@@ -49,7 +63,6 @@ layout: default
 	   	<div class="spacer30"></div>
 	</div>
 </div>
-
 
 {% include subscribe.html %}
 <div class="postwidth comments">{% include comments.html %}</div>
