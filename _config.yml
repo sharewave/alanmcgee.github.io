@@ -2,5 +2,6 @@ name: Sharewave Blog
 markdown: redcarpet
 pygments: true
 
+url: http://blog.sharewave.com
 permalink: :title
 paginate: 5
