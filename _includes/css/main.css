@@ -756,7 +756,7 @@ div.byline-block {
   margin-left: -75px;
 }
 
-.image-container img {
+.image-container iframe {
   max-width: 100%;
 }
 
