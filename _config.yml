@@ -1,4 +1,5 @@
 name: Sharewave Blog
+description: ""
 markdown: redcarpet
 pygments: true
 
