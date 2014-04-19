@@ -42,6 +42,10 @@ blockquote p{
     line-height: 2;
 }
 
+blockquote {
+    margin-left: -22px;
+}
+
 strong {
     color: #666666;
     font-weight: normal;
@@ -60,10 +64,6 @@ select, textarea,  input[type="email"] {
     margin-right: auto;
     margin-bottom: -112px;
     margin-left: auto;
-}
-
-li {
-    list-style-type: none;
 }
 
 ul.tag-list li {
@@ -135,11 +135,29 @@ p {
     margin: 60px auto 0px;
 }
 
+.site h2 {
+    font-family: 'FS Elliot Web Regular', sans-serif !important;
+    font-size: 24px !important;
+    font-weight: normal !important; 
+    color: #666666;
+    margin: 60px auto 0px;
+}
+
+.site h3 {
+    font-family: 'FS Elliot Web Regular', sans-serif !important;
+    font-size: 18px !important;
+    font-weight: normal !important; 
+    color: #666666;
+    margin: 60px auto 0px;
+    
+}
+
 .site h4 {
     font-family: 'FS Elliot Web Regular', sans-serif !important;
     font-size: 14px !important;
     line-height: 20px;
     font-weight: normal; 
+    text-align: left;
 }
 
 .pagelink a {
@@ -204,6 +222,14 @@ a.header {
 
 .post ul, .post ol {
   margin-left: 1.35em;
+  margin-bottom: 40px;
+}
+
+
+.post li {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding-top: 2px;
 }
 
 .post code {
@@ -605,6 +631,11 @@ li.subleft {
     vertical-align: top;
     width: 40%;
     margin-top: 15px;
+}
+
+.subleft > h4 {
+    margin-left: 5px;
+    color: #666666;
 }
 
 li.subcenter {
