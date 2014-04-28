@@ -1,0 +1,52 @@
+---
+layout: default
+title: Published in Sharewave Weekly
+---
+
+{% assign category = site.data.categories['sharewave-weekly'] %}
+
+<div class="postwidth">
+
+  <div class="author-page">
+        <h3>{{category.name}}</h3>
+        {{ category.description }}
+  </div><br>
+
+    <div class="byline-heading">
+       <h4>Latest</h4>
+    </div>  
+
+   {% for post in site.posts %}
+   	{% if post.category == 'sharewave-weekly' %}
+	      <h1><a class="header" href="{{ post.url }}">{{ post.title }}</a></h1>
+	      <p class="date"> {{ post.date | date: '%B %-d, %Y' }}
+	      </p>
+	      {{ post.excerpt }}
+	      <h4><a href="{{ post.url }}">Read More +</a></h4>
+              <div class="post-break"></div>
+	{% endif %}
+   {% endfor %}
+</div>
+
+
+<!-- Pagination links 
+<div class="row-fluid postwidth">
+<div class="span12" style="padding-bottom:35px">
+ <nav id="pagination">
+    {% if paginator.previous_page %}
+      {% if paginator.previous_page == 1 %}
+      <a href="/" class="navbar-inverse pull-left" style="text-decoration:none"  title="Previous Page"><h4>&laquo; Previous</h4></a>
+      {% else %}
+      <a href="/page{{ paginator.previous_page }}/" class="navbar-inverse pull-left" style="text-decoration:none"  title="Newer Posts"><h4>&laquo; Previous</h4></a>
+      {% endif %}
+    {% endif %}
+
+    {% if paginator.next_page %}
+    <a href="/page{{ paginator.next_page }}/" class="navbar-inverse pull-right" style="text-decoration:none" title="Older Posts"><h4>Next &raquo;</h4></a>
+    {% endif %}
+  </nav>
+</div>
+</div>
+-->
+
+{% include subscribe.html %}
