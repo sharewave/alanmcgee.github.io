@@ -17,3 +17,8 @@ private-markets:
   name: Private Markets
   description: Thoughts on the marketplace
   page: /private-markets/
+
+sharewave-weekly:
+  name: Sharewave Weekly
+  description: Thoughts and ideas hand selected from <br>the startup community this week
+  page: /sharewave-weekly/
