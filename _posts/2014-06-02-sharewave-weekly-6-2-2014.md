@@ -4,7 +4,7 @@ title: Sharewave Weekly, June 2nd
 author: alan
 category: sharewave-weekly
 published: true
-excerpt: "An entrepreneur lists five desired traits from VCs, the economics of a smaller venture fund, a report on recent tech exits and a Brooklyn VC on raising too much money, and the math of investing a venture funds capital in this edition of the Sharewave Weekly."
+excerpt: "An entrepreneur lists five desired traits from VCs, the economics of a smaller venture fund, a report on recent tech exits and a Brooklyn VC show the downside of raising too much money, and the math of investing a venture funds capital in this edition of the Sharewave Weekly."
 ---
 *Every week we hand select thoughts and ideas from the startup community that we find most interesting.*
 
