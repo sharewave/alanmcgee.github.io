@@ -4,7 +4,7 @@ title: "Introducing: Your cap table supported by legal agreements"
 author: alan
 category: just-released
 published: true
-excerpt: ""
+excerpt: "Your cap table is simply a visualization of legal agreements between your company and your shareholders. It's a great way to view the distribution of ownership, but it's fairly meaningless without the underlying legal agreements to support the data."
 ---
 <div style="text-align:center; margin-bottom:40px;"><img src="/images/featuresgif3.gif"/></div>
 
