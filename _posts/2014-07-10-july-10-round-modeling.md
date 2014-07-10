@@ -119,7 +119,7 @@ Finally we generate the number of shares that the investor gets for their money:
 ![New Series Shares]({{ site.url }}/images/new-series-shares.png)
 
 <div class="example-block">
-    <p>Giving the New Series holders 28,148.148 shares for their $1,000,000 investment and 20% of the company.</p>
+    <p>The New Series holders get 28,148.148 shares for their $1,000,000 investment and 20% of the company.</p>
     <img src="{{ site.url }}/images/final-round.png">
 </div>
 
