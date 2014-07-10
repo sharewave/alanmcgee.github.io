@@ -127,7 +127,7 @@ p {
     -webkit-font-smoothing: antialiased;
 }
 
-.site li {
+.site ol li {
     line-height: 34px;
 }
 
