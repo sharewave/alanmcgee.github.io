@@ -125,6 +125,6 @@ Finally we generate the number of shares that the investor gets for their money:
 
 <h2 style="text-align: left">Conclusion</h2>
 
-You can check that all the above worked by multiplying the New Series Shares by our earlier calculated Price Per Share. If that sum doesn't equal the Investment Amount... something's gone wrong!
+You can check that all the above worked by multiplying the New Series Shares by our earlier calculated Price Per Share. If that sum doesn't equal the Investment Amount&hellip; something's gone wrong!
 
 If you've got this far &ndash; bravo! It's confusing, not well understood mathematics, but it is of course massively important. I hope at this stage I've given you enough such that you could do it all yourself. Alternatively, [sign up for Sharewave](https://sharewave.com) and we'll do it all for you!
