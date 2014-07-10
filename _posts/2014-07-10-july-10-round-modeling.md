@@ -4,10 +4,10 @@ title: "Round Modeling"
 date: 2014-07-10
 author: robert
 category: just-released
-excerpt: "This week we released a round modeling tool so you can see the effect that taking on a new round of funding will have on your existing shareholders. To make it as usable as possible our interface hides many of the low level calculations -- we're trying to make it easy for you -- but we thought we'd explain the mathematics behind the scenes in case you wanted to run the calculation yourself."
+excerpt: "This week we released a round modeling tool so you can see the effect that taking on a new round of funding will have on your existing shareholders. To make it as usable as possible our interface hides many of the low level calculations &ndash; we're trying to make it easy for you &ndash; but we thought we'd explain the mathematics behind the scenes in case you wanted to run the calculation yourself."
 ---
 
-We've recently implemented several modeling tools on Sharewave. The Convertible Note Calculator has been [available for some time](https://sharewave.com/features/convertible-notes) (though we've recently enhanced it for our users with interest calculations built in). This week we released a round modeling tool so you can see the effect that taking on a new round of funding will have on your existing shareholders. To make it as usable as possible our interface hides many of the low level calculations -- we're trying to make it easy for you -- but we thought we'd explain the mathematics behind the scenes in case you wanted to run the calculation yourself.
+We've recently implemented several modeling tools on Sharewave. The Convertible Note Calculator has been [available for some time](https://sharewave.com/features/convertible-notes) (though we've recently enhanced it for our users with interest calculations built in). This week we released a round modeling tool so you can see the effect that taking on a new round of funding will have on your existing shareholders. To make it as usable as possible our interface hides many of the low level calculations &ndash; we're trying to make it easy for you &ndash; but we thought we'd explain the mathematics behind the scenes in case you wanted to run the calculation yourself.
 
 We take only three inputs (plus your existing cap table!). The pre-money valuation of the company, the incoming investment and an optional post-money option pool. From these we can calculate everyone’s dilution and percentage ownership once the money comes in.
 
@@ -127,4 +127,4 @@ Finally we generate the number of shares that the investor gets for their money:
 
 You can check that all the above worked by multiplying the New Series Shares by our earlier calculated Price Per Share. If that sum doesn't equal the Investment Amount... something's gone wrong!
 
-If you've got this far -- bravo! It's confusing, not well understood mathematics, but it is of course massively important. I hope at this stage I've given you enough such that you could do it all yourself. Alternatively, [sign up for Sharewave](https://sharewave.com) and we'll do it all for you!
+If you've got this far &ndash; bravo! It's confusing, not well understood mathematics, but it is of course massively important. I hope at this stage I've given you enough such that you could do it all yourself. Alternatively, [sign up for Sharewave](https://sharewave.com) and we'll do it all for you!
