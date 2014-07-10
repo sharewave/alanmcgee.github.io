@@ -127,6 +127,10 @@ p {
     -webkit-font-smoothing: antialiased;
 }
 
+.site li {
+    line-height: 34px;
+}
+
 .site h1 {
     font-family: 'FS Elliot Web Regular', sans-serif !important;
     font-size: 36px !important;
@@ -215,9 +219,8 @@ a.header {
 
 /* standard */
 .post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
+  background-color: #F1F1F1;
+  padding: 20px;
 }
 
 .post ul, .post ol {
@@ -234,8 +237,7 @@ a.header {
 
 .post code {
   border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .2em;
+  font-size: 21px;
 }
 
 .post pre code {
@@ -816,4 +818,33 @@ div.byline-block {
 .container.scaling {
     width: 100%;
     margin: 0 auto 0 auto;
+}
+
+
+/*****************************************************************************/
+/*
+/* Custom Block
+/*
+/*****************************************************************************/
+
+.example-block {
+    background-color: #EBF4FA;
+    padding: 20px;
+    color: #34495E;
+    border-radius: 5px;
+}
+
+.example-block p:last-child {
+    margin-bottom: 0;
+}
+
+.example-block li {
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+.example-block li > span {
+    font-weight: bold;
+    display: block;
+    line-height: 18px;
 }
