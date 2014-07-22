@@ -3,7 +3,7 @@ layout: post
 title: "Round Modeling"
 date: 2014-07-10
 author: robert
-category: just-released
+category: startup-math
 excerpt: "This week we released a round modeling tool so you can see the effect that taking on a new round of funding will have on your existing shareholders. To make it as usable as possible our interface hides many of the low level calculations &ndash; we're trying to make it easy for you &ndash; but we thought we'd explain the mathematics behind the scenes in case you wanted to run the calculation yourself."
 ---
 

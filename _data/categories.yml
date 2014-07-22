@@ -22,3 +22,8 @@ sharewave-weekly:
   name: Sharewave Weekly
   description: Thoughts and ideas hand selected from <br>the startup community this week
   page: /sharewave-weekly/
+
+startup-math:
+  name: Startup Math
+  description: Calculations behind startup deals
+  page: /startup-math/

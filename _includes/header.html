@@ -1,28 +1,40 @@
 <div id="navBar">
         <div class="navbar topnav row-fluid">
             <div class="navbounder">
+                <div class="content-pages">
+                    <ul ng-hide="navState.userid" class="hidden-phone nav">
+                        <li> <a target="_self" href="https://sharewave.com/features">
+                            Tour
+                        </a>
+
+                        </li>
+                        <li> <a target="_self" href="https://sharewave.com/pricing">
+                            Pricing
+                        </a>
+
+                        </li>
+                        <li> <a class="active" target="_self" href="http://blog.sharewave.com">
+                            Blog
+                        </a>
+
+                        </li>
+                    </ul>
+                </div>
                 <ul class="nav pull-left nav-logo">
-                    <li><a href="/">
-                        <img src="https://s3.amazonaws.com/sharewave/www/images/logo-blog-blue.png"/>
+                    <li><a href="https://sharewave.com">
+                        <img style="width: 129px !important; height: 22px;" src="https://s3.amazonaws.com/sharewave/www/images/logo-blue.png"/>
 
                     </a></li>
                 </ul>
-                 <ul class="nav pull-right nav-item">
-                        <li>
-                            <div class="standard-button small-standard-button hidden-phone">
-                            <button class="btn" onclick="window.location='#subscribe'; document.getElementById('subscribe-button').focus();">Subscribe</button>
-                            </div>                       
-                        </li>
-                </ul>
-                <ul class="hidden-phone nav pull-right content-pages">
-                    <li>
-                        <h5>Follow </h5>
-                    </li>
+                <ul class="nav pull-right nav-item dropdown-list hidden-phone">
                     <li>
                         <a href="https://twitter.com/sharewaveteam" target="_blank"><span data-icon="&#xe035;" aria-hidden="true"></span></a>
                     </li>
                     <li>
                         <a href="http://feeds.feedburner.com/Sharewave" target="_blank"><span data-icon="&#xe606;" aria-hidden="true"></span></a>
+                    </li>
+                    <li class="login-link">
+                        <a onclick="window.location='#subscribe'; document.getElementById('subscribe-button').focus();">Subscribe</a>
                     </li>
                 </ul>
             </div>
