@@ -4,7 +4,7 @@ title: "Convertible Note Basics"
 date: 2014-07-22
 author: robert
 category: startup-math
-publish: false
+publish: true
 excerpt: "Convertible notes have become extremely popular in the early stage startup space, but their simplicity can be deceptive."
 ---
 
