@@ -25,7 +25,7 @@ Let's go through a typical example to illustrate how an equity compensation pack
 <br>
 In plain english, this means you were granted the option to buy 1,000 shares at $1.00 per share, no matter what the stock price is in the future. You have 10 years to act on these options, after which they expire and are worth nothing.
 
-When these options are first granted on January 15th, 2013, you can't yet buy them. That's because most stock option grants have a holding period, called a **vesting schedule**, which indicates when your options can be exercised. This prevents you from buying all of the stock at once, and instead spreads the buying over time.
+When these options are first granted on January 15th, 2013, you can't yet buy them. That's because most stock option grants have a holding period, called a **vesting schedule**, which indicates when your options can be exercised. This prevents you from buying all of the stock at once, and instead spreads the buying over time. It's great for companies to incentivize employees to stay long-term, and prevents new hires from joining, buying, and leaving without putting in any effort.
 
 Vesting is most often a function of time, but can also be based on events or milestones (e.g. company performance). Let's continue the example with a time-based vesting schedule:
 
