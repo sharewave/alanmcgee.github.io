@@ -668,7 +668,7 @@ button.button {
     background-color: #1ABC96;
     border-radius: 0 3px 3px 0;
     display: inline-block;
-    width: 80px;
+    width: 100px;
     height: 40px;
     text-transform:capitalize;
     border: 0;
@@ -684,7 +684,7 @@ button.button {
 
 input.SubscriptionInput {
     padding-left: 15px;
-    width: 175px;
+    width: 300px;
     height: 30px;
     outline: none !important;
     -webkit-box-shadow: none !important;
@@ -702,13 +702,14 @@ input:focus.SubscriptionInput {
 li.subleft {
     display: inline-block;
     vertical-align: top;
-    width: 40%;
     margin-top: 15px;
 }
 
 .subleft > h4 {
     margin-left: 5px;
     color: #8D8D8D;
+    font-size: 17px !important;
+    margin-bottom: 20px;
 }
 
 li.subcenter {
