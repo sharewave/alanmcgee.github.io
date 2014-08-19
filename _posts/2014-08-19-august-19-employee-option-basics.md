@@ -4,7 +4,7 @@ title: "The Basics of Startup Stock Options"
 date: 2014-08-19
 author: alan
 category: shareholder-data
-published: false
+published: true
 excerpt: "If you're considering joining a startup, you've likely come across the concept of stock options. While they seem straightforward in theory &ndash; you're granted the opportunity to own part of the company &ndash; they can be confusing when you get into the details. So to help you better understand equity compensation, we've assembled the basics of what you'll typically see from startups and small businesses."
 ---
 If you're considering joining a startup, you've likely come across the concept of stock options. While they seem straightforward in theory &ndash; you're granted the opportunity to own part of the company &ndash; they can be confusing when you get into the details. So to help you better understand equity compensation, we've assembled the basics of what you'll typically see from startups and small businesses.
