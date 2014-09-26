@@ -17,25 +17,21 @@ Your cap table is your ownership structure, and is critical to making decisions 
 Now on Sharewave, all data entered into a cap table is wrapped within a unique transaction containing a type (e.g. issuance, transfer, conversion, etc), a unique ID, effectively dated in time, along with the user who entered the data and optionally supported by signed legal agreements. This gets more interesting as we build new products on top of these transactions, and we’ve already started with the following new ways to interact with your data:
 
 <h2 style="text-align: left">Time Travel</h2>
-<br>
 <img src="{{ site.url }}/images/cap-history.png">
 
 Most companies keep a copy of their cap table in its current state, but there’s value in seeing what it looks like historically and at a future date. We’ve built a feature that lets you travel through time to see your cap table near its beginning, or in the future as options continue to vest. 
 
 <h2 style="text-align: left">Filter Control</h2>
-<br>
 <img src="{{ site.url }}/images/cap-filter.png">
 
 By default, our cap table loads every transaction fully diluted. But there are times you don’t want to see your convertible notes, or your unvested employee options. Now you have complete control over what security types are shown, whether options are displayed in vested or unvested form, and can also combine the filters with time travel to narrow in on activity over time.
 
 <h2 style="text-align: left">Chronological Activity</h2>
-<br>
 <img src="{{ site.url }}/images/cap-rail.png">
 
 Selecting a cell in your cap table provides much more than the number itself. You’ll have a much clearer interface to show how that number evolved into its current value, from the initial issuance through splits, repurchases, conversions, exercises, etc. laid out chronologically to clearly show its mathematical progression.
 
 <h2 style="text-align: left">Transaction Log</h2>
-<br>
 <img src="{{ site.url }}/images/cap-trans.png">
 Every company will have a chronological view of every action taken on their cap table, from the first security issued to the last option exercised. You can easily search through history to filter transactions by shareholder, security, date, or transaction type. Selecting a transaction reveals the details of its underlying data, and the signed legal agreements supporting it.
 
