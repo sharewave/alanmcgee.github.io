@@ -119,11 +119,12 @@ p {
 .site {
   color: #aaa;
   font-family: 'Lora', serif !important;
-  font-size: 22px !important;
+  font-size: 20px !important;
   font-weight: normal !important; 
-  color: #666666;
+  color: #333333;
   line-height: 1.5;
   text-align: left;
+  letter-spacing: 0.01em;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -132,10 +133,10 @@ p {
 }
 
 .site h1 {
-    font-family: 'FS Elliot Web Regular', sans-serif !important;
+    font-family: 'Lora', serif !important;
     font-size: 36px !important;
-    font-weight: normal !important; 
-    color: #666666;
+    font-weight: 700 !important; 
+    color: #262626 !important;
     margin: 60px auto 0px;
 }
 
@@ -144,15 +145,14 @@ p {
     font-weight: 700 !important;
     font-size: 30px !important;
     font-weight: normal !important; 
-    color: #666666;
     margin: 60px auto 15px;
+    color: #262626 !important;
 }
 
 .site h3 {
     font-family: 'FS Elliot Web Regular', sans-serif !important;
     font-size: 18px !important;
     font-weight: normal !important; 
-    color: #666666;
     margin: 60px auto 0px;
     
 }
@@ -196,7 +196,7 @@ p.date {
 
 a.header {
   text-decoration: none;
-  color: #666666 !important;
+  color: #262626 !important;
 }
 
 .header a.extra {
