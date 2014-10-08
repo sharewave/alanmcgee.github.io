@@ -33,8 +33,8 @@ input, button, select, textarea, address {
 }
 
 p strong {
-    font-family: 'FS Elliot Web Bold', sans-serif;
-    font-weight: normal;
+    font-family: 'Lora', serif;
+    font-weight: 700;
 
 }
 
@@ -118,12 +118,13 @@ p {
 
 .site {
   color: #aaa;
-  font-family: 'FS Elliot Web Regular', sans-serif !important;
-  font-size: 21px !important;
+  font-family: 'Lora', serif !important;
+  font-size: 20px !important;
   font-weight: normal !important; 
-  color: #8D8D8D;
-  line-height: 34px;
+  color: #333333;
+  line-height: 1.5;
   text-align: left;
+  letter-spacing: 0.01em;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -132,26 +133,26 @@ p {
 }
 
 .site h1 {
-    font-family: 'FS Elliot Web Regular', sans-serif !important;
+    font-family: 'Lora', serif !important;
     font-size: 36px !important;
-    font-weight: normal !important; 
-    color: #666666;
+    font-weight: 700 !important; 
+    color: #262626 !important;
     margin: 60px auto 0px;
 }
 
 .site h2 {
-    font-family: 'FS Elliot Web Regular', sans-serif !important;
-    font-size: 24px !important;
+    font-family: 'Lora', serif !important;
+    font-weight: 700 !important;
+    font-size: 30px !important;
     font-weight: normal !important; 
-    color: #666666;
-    margin: 60px auto 0px;
+    margin: 60px auto 15px;
+    color: #262626 !important;
 }
 
 .site h3 {
     font-family: 'FS Elliot Web Regular', sans-serif !important;
     font-size: 18px !important;
     font-weight: normal !important; 
-    color: #666666;
     margin: 60px auto 0px;
     
 }
@@ -182,7 +183,7 @@ p.date {
     color: #8D8D8D;
     font-weight: normal;
     letter-spacing: .05em;
-    margin-bottom: 0 !important;
+    margin-bottom: 10px !important;
 }
 
 .site a {
@@ -195,7 +196,7 @@ p.date {
 
 a.header {
   text-decoration: none;
-  color: #666666 !important;
+  color: #262626 !important;
 }
 
 .header a.extra {
@@ -785,6 +786,7 @@ ul.sub-block {
 }
 
 .byline-author {
+  font-family: 'FS Elliot Web Light', sans-serif;
   font-size: 14px;
   position: relative;
   width: 100%;
@@ -871,7 +873,7 @@ div.byline-block {
 
 .post-break {
   border-bottom: solid 1px #C7C7C7 !important;
-  margin-top: 80px;
+  margin-top: 60px;
   margin-bottom: 30px;
 }
 
