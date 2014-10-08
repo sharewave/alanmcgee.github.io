@@ -4,7 +4,7 @@ title: "A Better Cap Table"
 date: 2014-09-16
 author: alan
 category: just-released
-published: false
+published: true
 excerpt: "At Sharewave, we’ve been working closely with fellow startups to bring more flexibility to how shareholder information is captured, presented and shared amongst small teams and their shareholders. We’re excited to announce the release of our new cap table."
 ---
 At Sharewave, we’ve been working closely with fellow startups to bring more flexibility to how shareholder information is captured, presented and shared amongst small teams and their shareholders.
