@@ -19,7 +19,7 @@ Enter our three-step stock option flow, and you'll see the screen below. You can
 
 <img src="{{ site.url }}/images/options-1a.png">
 
-Add your option plan, option agreement template, and a notice of exercise that will all be shared with employees every time a grant is issued. Using Sharewave’s document tools, you can quickly open and prepare your templates to be filled with grant information. That's it, now to lay out who's getting how many.
+Add your option plan, option agreement template, and a notice of exercise that will all be shared with employees every time a grant is issued. Using Sharewave’s document tools, you can quickly open and prepare your templates to be filled with grant information. 
 
 <img src="{{ site.url }}/images/options-1b.png">
 
