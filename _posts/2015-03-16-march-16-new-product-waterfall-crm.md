@@ -12,14 +12,14 @@ Lately we've been building product so quickly that we've not stopped to announce
 <h2 style="text-align: left">Waterfall modeling</h2>
 One of the many tools we're building on top of cap table data. Model varying exit prices for your company, and see how the proceeds are released by share class and by shareholder.
 <br><br>
-<img src="{{ site.url }}/images/library.png">
+<img src="{{ site.url }}/images/new_waterfall.png">
 <br><br>
 We'll soon be writing about the math that goes on behind the scenes. It's critical to understand how the structure of your equity and debt come into play during liquidity events.
 
 <h2 style="text-align: left">Contact profiles</h2>
 Organize and view each contact's information, permissions, associated documents and transactions in one place.
 <br><br>
-<img src="{{ site.url }}/images/library.png">
+<img src="{{ site.url }}/images/new_contacts.png">
 <br><br>
 
 <h2 style="text-align: left">Security views</h2>
