@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "What we've released over the last two months"
-date: 2015-03-19
+title: "Two months of new product"
+date: 2015-03-20
 author: alan
 category: just-released
 published: true
-excerpt: "Lately we've been building product so quickly that we've not stopped to announce what's new. Here are some of the highlights that you'll now notice on Sharewave."
+excerpt: "Lately we've been building features and enhancements so quickly that we've not stopped to announce what's new. Here are some of the highlights that you'll now find on Sharewave."
 ---
-Lately we've been building product so quickly that we've not stopped to announce what's new. Here are some of the highlights that you'll now find on Sharewave:
+Lately we've been building features and enhancements so quickly that we've not stopped to announce what's new. Here are some of the highlights that you'll now find on Sharewave:
 
 <h2 style="text-align: left">Waterfall modeling</h2>
 One of the many tools we've built on top of cap table data. Model varying exit prices for your company, and see how the proceeds are released by share class and by shareholder.
@@ -25,7 +25,7 @@ Organize and view each contact's information, permissions, associated documents 
 <h2 style="text-align: left">Security views</h2>
 A simpler way to view your shareholders, investors or option holders within a specific security. The columns in each tab vary by security type, so you can review meaningful highlights along with the pro rata ownership for the class and for the company.
 <br><br>
-<img src="/images/new_security_page.png">
+<img src="{{ site.url }}/images/new_security_page.png">
 <br><br>
 
 <h2 style="text-align: left">Big updates to the cap table</h2>
@@ -35,20 +35,20 @@ There are also two big buttons at the top to create a new security, or to issue 
 
 The cap table is also now searchable, and by default we'll show the first 50 rows to make larger cap tables more manageable. We also have additional customizations coming that will give you more control this summary view.
 <br><br>
-<img src="/images/new_cap_table.png">
+<img src="{{ site.url }}/images/new_cap_table.png">
 <br><br>
 
 <h2 style="text-align: left">Valuation history</h2>
 Keep a history of 409a valuations, including the underlying valuation report tied to each entry. We'll be using this valuation data in a number of places throughout the platform to enhance editing, reviewing and modeling your data.
 <br><br>
-<img src="/images/new_valuations.png">
+<img src="{{ site.url }}/images/new_valuations.png">
 <br><br>
 
 <h2 style="text-align: left">A number of smaller, but important updates</h2>
 * You can now pre-pay for one year of Sharewave and save 15%
 * We've added support for restricted stock
 * Lots of under-the-hood updates to increase performance and speed
-* A number of new fields for securities and transactions
+* 10+ new fields to store more data on securities and transactions
 * You can now download your cap table and transactions to XLS or CSV
 * Invoices are much easier to access and read
 
