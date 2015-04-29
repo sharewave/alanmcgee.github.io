@@ -120,7 +120,7 @@ Finally we generate the number of shares that the investor gets for their money:
 
 <div class="example-block">
     <p>The New Series holders get 27,240 shares for their $1,000,000 investment and 19.512% of the company.</p>
-    <img src="{{ site.url }}/images/final-round.png">
+    <img src="{{ site.url }}/images/final_round.png">
 </div>
 
 <h2 style="text-align: left">Conclusion</h2>
