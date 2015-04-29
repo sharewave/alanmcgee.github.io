@@ -29,7 +29,7 @@ A simpler way to view your shareholders, investors or option holders within a sp
 <br><br>
 
 <h2 style="text-align: left">Big updates to the cap table</h2>
-You used to have to toggle between editing and viewing the cap table, now everything is one view and easily editable by diving into transaction using the right side rail. And you no longer need to visit the cap table to make edits, now you can edit a transaction from anywhere it's listed on the platform.
+You used to have to toggle between editing and viewing the cap table, now everything is one view and easily editable by diving into transactions using the right side rail. And you no longer need to visit the cap table to make edits, now you can edit a transaction from anywhere it's listed on the platform.
 
 There are also two big buttons at the top to create a new security, or to issue new transactions. You'll also notice these buttons throughout the site, which means you can quickly create new classes of shares or issue new shares, options, warrants or convertibles much more quickly.
 
