@@ -7,7 +7,7 @@ category: just-released
 published: true
 excerpt: "Here are some new features and big updates new to Sharewave."
 ---
-Here are some highlights of the new product that you'll now find on Sharewave:
+Here are some highlights of new product now on Sharewave:
 
 <h2 style="text-align: left">Sharewave + HelloSign</h2>
 We've teamed up with the great folks at HelloSign to provide a much more robust e-signature experience, and a much simpler workflow for you and your recipients from end-to-end.
