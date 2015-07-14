@@ -14,7 +14,7 @@ We've teamed up with the great folks at HelloSign to provide a much more robust 
 <br><br>
 <img src="{{ site.url }}/images/july15_esign.png">
 <br><br>
-This is now available in every account, and you can request unlimited e-signatures as part of your existing Sharewave subscription.
+This includes multi-party signature, ordered signatures, and a number of other great enhancements. It's available today in every account, and you can request unlimited e-signatures as part of your existing Sharewave subscription.
 
 <h2 style="text-align: left">Pro forma round modeling</h2>
 In addition to modeling an upcoming round, you can now identify existing or new investors to evaluate follow-on investments. This will show the resulting post-money percentage for each investment entity, along with the percent of the company that capital purchased and their pro rata percent of the new round.
@@ -35,4 +35,5 @@ This has been a long time coming. Instead of entering transactions one-by-one, y
 * Two-factor authentication powered by Authy (now Twilio)
 * Stock Appreciation Rights and Phantom Stock are now available
 * LLC friendly language throughout the site
-* New internal product guides and a better live support system 
+* Imports contacts from your AngelList profile
+* New internal product guides and a better live support system
