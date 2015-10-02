@@ -4,7 +4,7 @@ title: "New: Revamped certificates, intelligence engine, and more."
 date: 2015-10-02
 author: robert
 category: just-released
-published: false
+published: true
 excerpt: "Better certificates and a smarter Sharewave platform."
 ---
 Here are some highlights of new product now on Sharewave:
