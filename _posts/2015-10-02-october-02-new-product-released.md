@@ -14,7 +14,7 @@ We've given our certificates an overhaul. They're now super straightforward to g
 <br><br>
 <img style="border: 1px solid rgb(51, 51, 51);" src="/images/blank_cert.png">
 <br><br>
-You'll see the new certificate workflow when you jump back into Sharewave. They're part of the issuing workflows so for existing customers you'll need to edit your securities to add the required fields (facsimile signatures).
+You'll see the new certificate workflow when you jump back into Sharewave. They're part of the issuing workflows so for existing customers you'll need to edit your securities to add the required fields (facsimile signatures). Initially certificates are only available for Delaware C-Corps but we'll be rolling out more regions in the coming months. If you're not a Delaware corp but would really like Sharewave certificates do please reach out to us and we'll see if we can get your region or company type supported!
 [More here to get you started.](http://docs.sharewave.com/article/88-electronic-certificates)
 
 <h2 style="text-align: left">Intelligence Engine</h2>
