@@ -234,6 +234,7 @@ a.header {
     margin-left: 10px;
     margin-bottom: 10px;
     padding-top: 2px;
+    line-height: 24px;
 }
 
 .post code {
