@@ -4,7 +4,7 @@ title: "Converting notes in pre vs post money"
 date: 2015-10-15
 author: robert
 category: startup-math
-publish: false
+published: false
 excerpt: "XXXX"
 ---
 
