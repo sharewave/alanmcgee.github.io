@@ -29,8 +29,8 @@ We've allowed you to enter dividends for some time but we'll now track their acc
 
 <h2 style="text-align: left">A number of smaller, but important updates</h2>
 * Cap table xls download now allows for exporting at any point in time.
-* Certificates can be issued on exercises, converts and transfers
-* If you have a current 409a valuation we'll autopopulate the strike price on options as you issue them
+* Certificates can be issued on exercises, conversions and transfers
+* If you have a current 409a valuation we'll auto-populate the strike price on options as you issue them
 * Warrants can have vesting and are fully implemented on the waterfall model
-* Date fields can now be pasted in bulk entry
-* If you issue Options, Phantom Stock, or Stock Appreciation Rights out of the same security, the security page can now show you the breakdown by type.
+* Date fields can now be pasted in bulk transaction entry
+* If you issue Options, Phantom Stock, or Stock Appreciation Rights out of the same security, the security page now shows the breakdown by type.
