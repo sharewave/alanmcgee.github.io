@@ -4,7 +4,7 @@ title: "New: 83(b) Election Form, 100K Rule and Dividends."
 date: 2015-10-19
 author: robert
 category: just-released
-published: false
+published: true
 excerpt: "Straightforward generated 83(b) forms and dividends on the waterfall"
 ---
 Here are some highlights of new product now on Sharewave:
@@ -24,7 +24,7 @@ Adding to our system reporting, we'll now let you know whenever you're issuing i
 <h2 style="text-align: left">Dividends</h2>
 We've allowed you to enter dividends for some time but we'll now track their accrual for you and include them in the waterfall modeling. Any investors with access to their transactions will also be able to track accrual.
 <br><br>
-<img style="border: 1px solid rgb(51, 51, 51);" src="/images/dividend_accrual.png">
+<img style="border: 1px solid rgb(51, 51, 51); width: 300px;" src="/images/dividend_accrual.png">
 <br><br>
 
 <h2 style="text-align: left">A number of smaller, but important updates</h2>
