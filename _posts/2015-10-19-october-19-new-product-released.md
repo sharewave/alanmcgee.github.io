@@ -33,4 +33,4 @@ We've allowed you to enter dividends for some time but we'll now track their acc
 * If you have a current 409a valuation we'll autopopulate the strike price on options as you issue them
 * Warrants can have vesting and are fully implemented on the waterfall model
 * Date fields can now be pasted in bulk entry
-* If you have subtypes within a single equity compensation security we now give you a view on the securities page showing you the breakdown.
+* If you issue Options, Phantom Stock, or Stock Appreciation Rights out of the same security, the security page can now show you the breakdown by type.
