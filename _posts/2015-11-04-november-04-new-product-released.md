@@ -7,7 +7,7 @@ category: just-released
 published: false
 excerpt: "Making editing faster and more precise"
 ---
-Here are some highlights of new product now on Sharewave:
+Here are some highlights of new features now on Sharewave:
 
 <h2 style="text-align: left">Bulk Contact Import</h2>
 This week we've released an awesome new tool that allows you to get all your contacts onto Sharewave quickly and easily. Open up 'add contact' in your contacts sections and you'll now see a new bulk option. Copy and paste, press save and you'll have everything on Sharewave in seconds.
@@ -29,4 +29,4 @@ Ever issued 15 option grants and then realized there was a typo in all of them? 
 * Waterfall outputs can now be downloaded as an xls.
 * The date being viewed is now maintained across the site so those who've entered future events don't constantly have to change the date to see them.
 * Splits have been optimized to run faster.
-* To dos now include prompts to issue from unused securities and option pools.
+* The dashboard will now prompt to issue from unused securities and option pools.
