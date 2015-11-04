@@ -4,7 +4,7 @@ title: "New: Bulk contacts, bulk transaction editing and granular permissions"
 date: 2015-11-04
 author: robert
 category: just-released
-published: false
+published: true
 excerpt: "Making editing faster and more precise"
 ---
 Here are some highlights of new features now on Sharewave:
