@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Converting notes in pre vs post money"
+title: "Converting notes: pre-money vs post-money"
 date: 2015-11-13
 author: robert
 category: startup-math
@@ -12,20 +12,22 @@ One of the most common questions we receive at Sharewave from early stage compan
 
 <h2 style="text-align: left">Who gets diluted?</h2>
 
-This problem really boils down to who gets diluted and how much the company is worth.
+This problem really boils down to who gets diluted and what's included in your pre-money valuation.
 
 <ul>
     <li>
-        In a pre-money conversion the notes convert first, lowering the effective pre-money valuation. Then the incoming series gets their full expected percentage of the company at the agreed pre-money valuation diluting everyone including the newly converted convertible note holders.
+        In a pre-money conversion the notes convert first, and are included as part of your company's value in the pre-money valuation. Then the incoming series gets their full expected percentage of the company at the agreed pre-money valuation diluting everyone including the newly converted convertible note holders.
+        You may also have heard pre-money conversion referred to as "the percentage-ownership method".
     </li>
     <li>
-        In a post-money conversion, the incoming series goes first, then the note holders convert, diluting out everyone including the new series investors, but increasing the post-money valuation of the company.
+        In a post-money conversion, the incoming series goes first, then the note holders convert, diluting out everyone, including the new series investors, but increasing the post-money valuation of the company.
+        Because the pre-money value does not include the note holders, it gives a fixed price for the new round shares and so post-money conversion is sometimes (confusingly) referred to as "the pre-money method" when looked at from the perspective of the new investors.
     </li>
 </ul>
 
 <h2 style="text-align: left">A concrete example</h2>
 
-I hope that makes sense in the abstract, but let's work through a simple example to show the effects. We'll use the same basic cap table we used in [our earlier post on round modeling](http://blog.sharewave.com/july-10-round-modeling/) so if you've got any questions about the round model more generally do check that out first.
+Let's work through a simple example to show the effects. We'll use the same basic cap table we used in [our earlier post on round modeling](http://blog.sharewave.com/july-10-round-modeling/) so if you've got any questions about the round model more generally, you may want to check that out first.
 
 <div class="example-block">
     <p>The company has just three securities:</p>
@@ -41,7 +43,7 @@ I hope that makes sense in the abstract, but let's work through a simple example
 </div>
 
 <h2 style="text-align: left">Pre-money conversion</h2>
-First let's look at the results if we go for a pre-money note conversion (also known as the percentage-ownership method).
+First, let's look at the results if we go for a pre-money note conversion.
 
 <div class="example-block">
     <p>
@@ -56,7 +58,7 @@ First let's look at the results if we go for a pre-money note conversion (also k
 </div>
 
 <h2 style="text-align: left">Post-money conversion</h2>
-Now let's do exactly the same thing except convert the note in post-money. One quirk worth mentioning here is that this post-money note conversion is sometimes confusingly called the "pre-money method". This is because the pre-money value is fixed and all the numbers are calculated from it.
+Now let's do exactly the same thing except convert the note in post-money.
 
 <div class="example-block">
     <p>
