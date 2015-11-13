@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Converting notes in pre vs post money"
+title: "Converting notes: pre-money vs post-money"
 date: 2015-11-13
 author: robert
 category: startup-math
-published: true
+published: false
 excerpt: "Who gets diluted and how much is your company is worth."
 ---
 
@@ -16,16 +16,16 @@ This problem really boils down to who gets diluted and how much the company is w
 
 <ul>
     <li>
-        In a pre-money conversion the notes convert first, lowering the effective pre-money valuation. Then the incoming series gets their full expected percentage of the company at the agreed pre-money valuation diluting everyone including the newly converted convertible note holders.
+        In a pre-money conversion the notes convert first, and are included as part of your company's value in the pre-money valuation. You may also hear pre-money conversion referred to as "the percentage-ownership method".
     </li>
     <li>
-        In a post-money conversion, the incoming series goes first, then the note holders convert, diluting out everyone including the new series investors, but increasing the post-money valuation of the company.
+        In a post-money conversion, the incoming series goes first, then the note holders convert increasing the post-money valuation of the company. Because the pre-money value does not include the note holders, it gives a fixed price for the new round shares and so post-money conversion is sometimes (confusingly) referred to as "the pre-money method" when looked at from the perspective of the new investors.
     </li>
 </ul>
 
 <h2 style="text-align: left">A concrete example</h2>
 
-I hope that makes sense in the abstract, but let's work through a simple example to show the effects. We'll use a very basic cap table with just common stock and one convertible round.
+Let's work through a simple example to show the effects. We'll use a very basic cap table with just common stock and one convertible round.
 
 <div class="example-block">
     <p>The company has just three securities:</p>
@@ -40,7 +40,7 @@ I hope that makes sense in the abstract, but let's work through a simple example
 </div>
 
 <h2 style="text-align: left">Pre-money conversion</h2>
-First let's look at the results if we go for a pre-money note conversion (also known as the percentage-ownership method).
+First, let's look at the results if we go for a pre-money note conversion.
 
 <div class="example-block">
     <p>
@@ -55,7 +55,7 @@ First let's look at the results if we go for a pre-money note conversion (also k
 </div>
 
 <h2 style="text-align: left">Post-money conversion</h2>
-Now let's do exactly the same thing except convert the note in post-money. One quirk worth mentioning here is that this post-money note conversion is sometimes confusingly called the "pre-money method". This is because the pre-money value is fixed and all the numbers are calculated from it.
+Now let's do exactly the same thing except convert the note in post-money.
 
 <div class="example-block">
     <p>
@@ -70,4 +70,4 @@ Now let's do exactly the same thing except convert the note in post-money. One q
 </div>
 
 <br>
-This difference is not to be sniffed at. Given a much larger convertible note round, not all that unusual these days, the difference to all involved (especially the founders) can be very large indeed. This isn't a right/wrong issue, both conversions are totally valid, but it's definitely worth being aware of the impact before you sign your note agreement not when you're about to close your series A!
+This difference is not to be sniffed at, in this example using identical numbers the founders ended up with 55% or 64% of the company depending on the method used. This isn't a right/wrong issue, both conversions are totally valid, but it's definitely worth being aware of the impact before you sign your note agreement not when you're about to close your series A!
