@@ -4,7 +4,7 @@ title: "Converting notes in pre vs post money"
 date: 2015-11-13
 author: robert
 category: startup-math
-published: false
+published: true
 excerpt: "Who gets diluted and how much is your company is worth."
 ---
 
@@ -25,19 +25,18 @@ This problem really boils down to who gets diluted and how much the company is w
 
 <h2 style="text-align: left">A concrete example</h2>
 
-I hope that makes sense in the abstract, but let's work through a simple example to show the effects. We'll use the same basic cap table we used in [our earlier post on round modeling](http://blog.sharewave.com/july-10-round-modeling/) so if you've got any questions about the round model more generally do check that out first.
+I hope that makes sense in the abstract, but let's work through a simple example to show the effects. We'll use a very basic cap table with just common stock and one convertible round.
 
 <div class="example-block">
     <p>The company has just three securities:</p>
 
     <ul>
-        <li><span>Common</span> An Equity Series with 90,000 shares issued</li>
-        <li><span>Options</span> An options series with 10,000 authorized, 5,000 issued</li>
-        <li><span>Debt A</span> A Debt series with $100,000 invested at a 20% discount.</li>
+        <li><span>Common</span> An Equity Series with 1,000,000 shares issued</li>
+        <li><span>Debt A</span> A Debt series with $1,000,000 invested at a 20% discount.</li>
     </ul>
 
     <p>This company is doing a Series A of $1,000,000 at a pre-money valuation of $4,000,000.</p>
-    <img src="/images/initial-round.png">
+    <img src="/images/initial_prepostround.png">
 </div>
 
 <h2 style="text-align: left">Pre-money conversion</h2>
@@ -45,11 +44,11 @@ First let's look at the results if we go for a pre-money note conversion (also k
 
 <div class="example-block">
     <p>
-        We have one $100,000 note at a 20% discount. We take the discount: divide 100,000 by 0.8 giving us a note value of $125,000. This lowers the effective pre-money valuation to $3,875,000 and dividing that valuation by the number of outstanding shares we get a price per share of $38.75.
+        We have one $100,000 note at a 20% discount. We take the discount: divide 100,000 by 0.8 giving us a note value of $1,250,000. This lowers the effective pre-money valuation to $2,750,000 and dividing that valuation by the number of outstanding shares we get a price per share of $2.75.
     </p>
 
     <p>
-        The debt holder therefore gets 3,226 shares for their note and the new series investors get 25,806 shares for their $1M. As you can see below, the new series get their full 20% and all the dilution hits the stakeholders who existed prior to the new investment round.
+        The debt holder therefore gets 454,545 shares for their note and the new series investors get 363,636 shares for their $1M. As you can see below, the new series get their full 20% and all the dilution hits the stakeholders who existed prior to the new investment round.
     </p>
 
     <img src="/images/final_premoneyround.png">
@@ -60,15 +59,15 @@ Now let's do exactly the same thing except convert the note in post-money. One q
 
 <div class="example-block">
     <p>
-        The pre-money valuation is fixed, so the incoming investors purchase their shares at $40 each. This gives them 25,000 shares and 20% of the company.
+        The pre-money valuation is fixed, so the incoming investors purchase their shares at $4 each. This gives them 250,000 shares and 20% of the company.
     </p>
 
     <p>
-        However the notes then convert. They get the $40 price per share at a 20% discount, giving them 3,125 shares which dilutes all the existing stakeholders including the new series investors. However using this method the implied post-money valuation of the company is not $10M but $10.125M so even though the new series investors hold a smaller percentage of the company the implied value of their shares is the same.
+        However the notes then convert. They get the $4 price per share at a 20% discount, giving them 312,500 shares which dilutes all the existing stakeholders including the new series investors. However using this method the implied post-money valuation of the company is not $5M but $6.25M so even though the new series investors hold a smaller percentage of the company the implied value of their shares is the same.
     </p>
 
     <img src="/images/final_postmoneyround.png">
 </div>
 
 <br>
-As you can see, even with a relatively small convertible note this difference is not to be sniffed at. Given a much larger convertible note round the difference to all involved (especially the founders) can be very large indeed. This isn't a right/wrong issue, both conversions are totally valid, but it's definitely worth being aware of the impact before you sign your note agreement not when you're about to close your series A!
+This difference is not to be sniffed at. Given a much larger convertible note round, not all that unusual these days, the difference to all involved (especially the founders) can be very large indeed. This isn't a right/wrong issue, both conversions are totally valid, but it's definitely worth being aware of the impact before you sign your note agreement not when you're about to close your series A!
