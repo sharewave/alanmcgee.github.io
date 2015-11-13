@@ -4,7 +4,7 @@ title: "Converting notes: pre-money vs post-money"
 date: 2015-11-13
 author: robert
 category: startup-math
-published: false
+published: true
 excerpt: "Who gets diluted and how much is your company is worth."
 ---
 
