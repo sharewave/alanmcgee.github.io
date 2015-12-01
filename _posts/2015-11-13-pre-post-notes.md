@@ -5,7 +5,7 @@ date: 2015-11-13
 author: robert
 category: startup-math
 published: false
-excerpt: "Who gets diluted and how much is your company is worth."
+excerpt: "Who gets diluted and how much is your company worth."
 ---
 
 One of the most common questions we receive at Sharewave from early stage companies is about the difference between pre and post-money note conversion. Amazingly this detail is not always included in the terms of a note agreement yet it can make a massive difference to the outcome of a new round of financing. We've explored [the math behind convertible notes](http://blog.sharewave.com/july-22-convertible-notes/) and [the role they play in future rounds](http://blog.sharewave.com/july-10-round-modeling/) in earlier posts, here I'll explain the impact of just this one often missed term.
