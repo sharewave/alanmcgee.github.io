@@ -44,7 +44,7 @@ First, let's look at the results if we go for a pre-money note conversion.
 
 <div class="example-block">
     <p>
-        We have one $100,000 note at a 20% discount. We take the discount: divide 100,000 by 0.8 giving us a note value of $1,250,000. This lowers the effective pre-money valuation to $2,750,000 and dividing that valuation by the number of outstanding shares we get a price per share of $2.75.
+        We have one $1,000,000 note at a 20% discount. We take the discount: divide 1,000,000 by 0.8 giving us a note value of $1,250,000. This lowers the effective pre-money valuation to $2,750,000 and dividing that valuation by the number of outstanding shares we get a price per share of $2.75.
     </p>
 
     <p>
